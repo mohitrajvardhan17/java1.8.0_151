@@ -1,0 +1,25 @@
+package javax.naming;
+
+public class StringRefAddr
+  extends RefAddr
+{
+  private String contents;
+  private static final long serialVersionUID = -8913762495138505527L;
+  
+  public StringRefAddr(String paramString1, String paramString2)
+  {
+    super(paramString1);
+    contents = paramString2;
+  }
+  
+  public Object getContent()
+  {
+    return contents;
+  }
+}
+
+
+/* Location:              C:\Program Files (x86)\Java\jre1.8.0_151\lib\rt.jar!\javax\naming\StringRefAddr.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       0.7.1
+ */

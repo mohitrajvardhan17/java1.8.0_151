@@ -1,0 +1,19 @@
+package sun.nio.fs;
+
+import java.nio.file.spi.FileTypeDetector;
+
+public class DefaultFileTypeDetector
+{
+  private DefaultFileTypeDetector() {}
+  
+  public static FileTypeDetector create()
+  {
+    return new RegistryFileTypeDetector();
+  }
+}
+
+
+/* Location:              C:\Program Files (x86)\Java\jre1.8.0_151\lib\rt.jar!\sun\nio\fs\DefaultFileTypeDetector.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       0.7.1
+ */

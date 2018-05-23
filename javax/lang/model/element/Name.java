@@ -1,0 +1,17 @@
+package javax.lang.model.element;
+
+public abstract interface Name
+  extends CharSequence
+{
+  public abstract boolean equals(Object paramObject);
+  
+  public abstract int hashCode();
+  
+  public abstract boolean contentEquals(CharSequence paramCharSequence);
+}
+
+
+/* Location:              C:\Program Files (x86)\Java\jre1.8.0_151\lib\rt.jar!\javax\lang\model\element\Name.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       0.7.1
+ */
